@@ -1,0 +1,9 @@
+num1,num2=[float(i) for i in input("Enter two numbers:").split()]
+sum=num1+num2
+sub=num1-num2
+mul=num1*num2
+div=num1/num2
+print("Addition of two numbers=",sum)
+print("Subtraction of two numbers=",sub)
+print("Multiplication of two numbers=",mul)
+print("Division of two numbers=",div)
